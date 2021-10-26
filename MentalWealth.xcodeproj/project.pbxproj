@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A1D470F911F733ED4C1364A /* Pods_MentalWealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AD41413736CD43789DAC25 /* Pods_MentalWealth.framework */; };
+		AD39ACEE271A201E003DD2B4 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39ACED271A201E003DD2B4 /* CommunityViewController.swift */; };
+		AD39ACF0271A2081003DD2B4 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39ACEF271A2081003DD2B4 /* ResourcesViewController.swift */; };
+		AD39ACF2271A20A8003DD2B4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39ACF1271A20A8003DD2B4 /* SettingsViewController.swift */; };
+		AD39ACF4271B8CFC003DD2B4 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD39ACF3271B8CFB003DD2B4 /* GoogleService-Info-2.plist */; };
 		AD3CA7DE2703C27F005F15DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CA7DD2703C27F005F15DC /* AppDelegate.swift */; };
 		AD3CA7E02703C27F005F15DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CA7DF2703C27F005F15DC /* SceneDelegate.swift */; };
-		AD3CA7E22703C27F005F15DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CA7E12703C27F005F15DC /* ViewController.swift */; };
+		AD3CA7E22703C27F005F15DC /* PseudoLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CA7E12703C27F005F15DC /* PseudoLaunchViewController.swift */; };
 		AD3CA7E52703C27F005F15DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3CA7E32703C27F005F15DC /* Main.storyboard */; };
 		AD3CA7E72703C281005F15DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3CA7E62703C281005F15DC /* Assets.xcassets */; };
 		AD3CA7EA2703C281005F15DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3CA7E82703C281005F15DC /* LaunchScreen.storyboard */; };
+		AD3CA7F62703D0A5005F15DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3CA7F52703D0A5005F15DC /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52CEF3D04D937E3B77770D00 /* Pods-MentalWealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalWealth.debug.xcconfig"; path = "Target Support Files/Pods-MentalWealth/Pods-MentalWealth.debug.xcconfig"; sourceTree = "<group>"; };
+		AD39ACED271A201E003DD2B4 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		AD39ACEF271A2081003DD2B4 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		AD39ACF1271A20A8003DD2B4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AD39ACF3271B8CFB003DD2B4 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		AD3CA7DA2703C27F005F15DC /* MentalWealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalWealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3CA7DD2703C27F005F15DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD3CA7DF2703C27F005F15DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD3CA7E12703C27F005F15DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD3CA7E12703C27F005F15DC /* PseudoLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PseudoLaunchViewController.swift; sourceTree = "<group>"; };
 		AD3CA7E42703C27F005F15DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD3CA7E62703C281005F15DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD3CA7E92703C281005F15DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD3CA7EB2703C281005F15DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3CA7F52703D0A5005F15DC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C2FB591AD52019A3C9A84A1D /* Pods-MentalWealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalWealth.release.xcconfig"; path = "Target Support Files/Pods-MentalWealth/Pods-MentalWealth.release.xcconfig"; sourceTree = "<group>"; };
+		E5AD41413736CD43789DAC25 /* Pods_MentalWealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalWealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1D470F911F733ED4C1364A /* Pods_MentalWealth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E9998E27A620FF037B8B966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD41413736CD43789DAC25 /* Pods_MentalWealth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79D7ADBB56CD821170D75AE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52CEF3D04D937E3B77770D00 /* Pods-MentalWealth.debug.xcconfig */,
+				C2FB591AD52019A3C9A84A1D /* Pods-MentalWealth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD3CA7D12703C27F005F15DC = {
 			isa = PBXGroup;
 			children = (
 				AD3CA7DC2703C27F005F15DC /* MentalWealth */,
 				AD3CA7DB2703C27F005F15DC /* Products */,
+				79D7ADBB56CD821170D75AE0 /* Pods */,
+				4E9998E27A620FF037B8B966 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,44 @@
 		AD3CA7DC2703C27F005F15DC /* MentalWealth */ = {
 			isa = PBXGroup;
 			children = (
+				AD39ACF3271B8CFB003DD2B4 /* GoogleService-Info-2.plist */,
 				AD3CA7DD2703C27F005F15DC /* AppDelegate.swift */,
 				AD3CA7DF2703C27F005F15DC /* SceneDelegate.swift */,
-				AD3CA7E12703C27F005F15DC /* ViewController.swift */,
-				AD3CA7E32703C27F005F15DC /* Main.storyboard */,
+				AD3CA7F42703D022005F15DC /* Models */,
+				AD3CA7F32703D009005F15DC /* Views */,
+				AD3CA7F12703CFC1005F15DC /* Controllers */,
 				AD3CA7E62703C281005F15DC /* Assets.xcassets */,
-				AD3CA7E82703C281005F15DC /* LaunchScreen.storyboard */,
 				AD3CA7EB2703C281005F15DC /* Info.plist */,
 			);
 			path = MentalWealth;
+			sourceTree = "<group>";
+		};
+		AD3CA7F12703CFC1005F15DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD3CA7E12703C27F005F15DC /* PseudoLaunchViewController.swift */,
+				AD3CA7F52703D0A5005F15DC /* HomeViewController.swift */,
+				AD39ACED271A201E003DD2B4 /* CommunityViewController.swift */,
+				AD39ACEF271A2081003DD2B4 /* ResourcesViewController.swift */,
+				AD39ACF1271A20A8003DD2B4 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD3CA7F32703D009005F15DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD3CA7E82703C281005F15DC /* LaunchScreen.storyboard */,
+				AD3CA7E32703C27F005F15DC /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD3CA7F42703D022005F15DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD3CA7EE2703C281005F15DC /* Build configuration list for PBXNativeTarget "MentalWealth" */;
 			buildPhases = (
+				DA83BF9C9FA8B76261F105E5 /* [CP] Check Pods Manifest.lock */,
 				AD3CA7D62703C27F005F15DC /* Sources */,
 				AD3CA7D72703C27F005F15DC /* Frameworks */,
 				AD3CA7D82703C27F005F15DC /* Resources */,
+				9C1987DDD27A812833BB6E4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +192,67 @@
 			files = (
 				AD3CA7EA2703C281005F15DC /* LaunchScreen.storyboard in Resources */,
 				AD3CA7E72703C281005F15DC /* Assets.xcassets in Resources */,
+				AD39ACF4271B8CFC003DD2B4 /* GoogleService-Info-2.plist in Resources */,
 				AD3CA7E52703C27F005F15DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9C1987DDD27A812833BB6E4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalWealth/Pods-MentalWealth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalWealth/Pods-MentalWealth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MentalWealth/Pods-MentalWealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA83BF9C9FA8B76261F105E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MentalWealth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD3CA7D62703C27F005F15DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD3CA7E22703C27F005F15DC /* ViewController.swift in Sources */,
+				AD39ACF0271A2081003DD2B4 /* ResourcesViewController.swift in Sources */,
+				AD3CA7E22703C27F005F15DC /* PseudoLaunchViewController.swift in Sources */,
+				AD39ACF2271A20A8003DD2B4 /* SettingsViewController.swift in Sources */,
 				AD3CA7DE2703C27F005F15DC /* AppDelegate.swift in Sources */,
 				AD3CA7E02703C27F005F15DC /* SceneDelegate.swift in Sources */,
+				AD39ACEE271A201E003DD2B4 /* CommunityViewController.swift in Sources */,
+				AD3CA7F62703D0A5005F15DC /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +396,7 @@
 		};
 		AD3CA7EF2703C281005F15DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CEF3D04D937E3B77770D00 /* Pods-MentalWealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +410,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +426,7 @@
 		};
 		AD3CA7F02703C281005F15DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FB591AD52019A3C9A84A1D /* Pods-MentalWealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +440,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

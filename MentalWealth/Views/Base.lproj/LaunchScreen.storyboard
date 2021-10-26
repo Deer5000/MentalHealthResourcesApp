@@ -16,25 +16,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oz5-29-9uc">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oz5-29-9uc">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="briosLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ATf-jl-4Wx">
-                                        <rect key="frame" x="65" y="349" width="285" height="199"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="briosLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ATf-jl-4Wx">
+                                        <rect key="frame" x="57" y="392.5" width="300" height="111"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.59607843137254901" green="1" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ATf-jl-4Wx" firstAttribute="centerX" secondItem="oz5-29-9uc" secondAttribute="centerX" id="2Vz-xZ-CQI"/>
+                                    <constraint firstItem="ATf-jl-4Wx" firstAttribute="centerY" secondItem="oz5-29-9uc" secondAttribute="centerY" id="Uqg-tf-BpK"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oz5-29-9uc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="OB6-jQ-eGZ"/>
+                            <constraint firstAttribute="bottom" secondItem="oz5-29-9uc" secondAttribute="bottom" id="njj-GJ-M9o"/>
+                            <constraint firstAttribute="trailing" secondItem="oz5-29-9uc" secondAttribute="trailing" id="pYc-6E-1jf"/>
+                            <constraint firstItem="oz5-29-9uc" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="sgW-5p-MPH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="50.769230769230766" y="374.64454976303318"/>
         </scene>
     </scenes>
     <resources>
